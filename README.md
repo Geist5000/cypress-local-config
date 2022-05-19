@@ -1,3 +1,4 @@
+![](https://img.shields.io/github/workflow/status/geist5000/cypress-local-config/ci?label=tests)
 # cypress-local-config
 
 Cypress plugin which adds a way to override the default config by creating a `.local.json` file.
