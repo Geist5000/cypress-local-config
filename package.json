@@ -1,0 +1,31 @@
+{
+  "name": "cypress-local-config",
+  "version": "0.0.1",
+  "description": "Cypress plugin which adds a local config file",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geist5000/cypress-local-config.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress plugin"
+  ],
+  "author": "Gesit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Geist5000/cypress-local-config/issues"
+  },
+  "homepage": "https://github.com/Geist5000/cypress-local-config#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "deepmerge": "^4.2.2"
+  },
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
