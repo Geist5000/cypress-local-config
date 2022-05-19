@@ -1,4 +1,4 @@
-const debug = require('debug')('@geist5000/cypress-local-config')
+const debug = require('debug')('cypress-local-config')
 const deepmerge = require('deepmerge')
 
 function loadConfig(config) {
