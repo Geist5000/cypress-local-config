@@ -30,6 +30,11 @@ Contens of the `cypress.local.json` override all configurations taken by the nor
 This plugin with custom config files, specified by the `--config-file <path>` flag.
 Don't specify the `.local.json` file as config file. This plugin won't load the base file if you do that.
 
+# Known Issues
+
+The `.local.json` is last evaluated and overrides all other configurations, including environment variables.
+I currently don't know how to solve this issue, help is welcome.
+
 # Licence
 
 MIT Licence. 
