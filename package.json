@@ -1,6 +1,6 @@
 {
   "name": "cypress-local-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cypress plugin which adds a local config file",
   "main": "index.js",
   "scripts": {
