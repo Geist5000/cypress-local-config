@@ -2,6 +2,8 @@
 
 Cypress plugin which adds a way to overrite the default config by creating a `.local.json` file.
 
+This projekt is heavily inspired by [cypress-extends](https://github.com/bahmutov/cypress-extends)
+
 # Installation
 
 Add this plugin as dependency:
@@ -28,4 +30,6 @@ Contens of the `cypress.local.json` override all configurations taken by the nor
 This plugin with custom config files, specified by the `--config-file <path>` flag.
 Don't specify the `.local.json` file as config file. This plugin won't load the base file if you do that.
 
-# Caviates
+# Licence
+
+MIT Licence. 
