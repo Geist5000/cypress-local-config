@@ -1,4 +1,5 @@
 {
-  "baseUrl": "http://localhost",
+  "fixturesFolder": false,
+  "supportFile": false,
   "video": false
 }

@@ -2,17 +2,18 @@ name: ci
 on: push
 jobs:
   test:
+    strategy:
+      matrix:
+        configs: [ "cypress.json", "cypress2.json"]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
 
-      - name: Cypress run 🧪 without local config
+      - name: Cypress run 🧪
         uses: cypress-io/github-action@v2
+        with:
+          config-file: ${{ matrix.configs }}
         env:
           DEBUG: 'cypress-local-config'
-      - name: Cypress run 🧪 with local config
-        uses: cypress-io/github-action@v2
-        env:
-          DEBUG: 'cypress-local-config'
-          config-file: cypress2.json
+
