@@ -9,13 +9,13 @@ This projekt is heavily inspired by [cypress-extends](https://github.com/bahmuto
 Add this plugin as dependency:
 
 ```shell
-npm install -D @geist5000/cypress-local-config
+npm install -D cypress-local-config
 ```
 
 Next add it to the plugins file:
 ```shell
 module.exports = (on, config) => {
-  return require("../../")(config);
+  return require("cypress-local-config")(config);
 }
 ```
 
